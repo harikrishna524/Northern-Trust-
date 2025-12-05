@@ -1,0 +1,21 @@
+{
+  "name": "northern-trust-demo",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "bootstrap": "^5.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "chai": "^4.3.7",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.7",
+    "jsdom": "^21.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "mocha --require @babel/register --recursive src/__tests__"
+  }
+}
